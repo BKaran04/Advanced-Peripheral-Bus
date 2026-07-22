@@ -1,0 +1,7 @@
+var g_data = {'dummy':null,
+'1':'apb_slave.sv',
+'4':'driver.sv',
+'3':'generator.sv',
+'5':'monitor.sv',
+'6':'package.sv',
+'2':'top.sv'};

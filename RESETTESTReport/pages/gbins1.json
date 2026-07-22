@@ -1,0 +1,21 @@
+var g_data = {
+c142:[4,'pwdata',[],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[0,'1','1000',,'data']],[]],
+c143:[4,'paddr',[],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[0,'1','1000',,'valid'],[0,'1','0',1,'invalid']],[]],
+c144:[4,'psel',[],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[0,'1','1000',,'sel[0]'],[0,'1','0',1,'sel[1]']],[]],
+c145:[4,'pwrite',[],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[0,'1','1000',,'read'],[0,'1','0',1,'write']],[]],
+c146:[4,'pstrb',[],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[0,'1','1000',,'value[0]'],[0,'1','0',1,'value[1]'],[0,'1','0',1,'value[2]'],[0,'1','0',1,'value[3]'],[0,'1','0',1,'value[4]'],[0,'1','0',1,'value[5]'],[0,'1','0',1,'value[6]'],[0,'1','0',1,'value[7]'],[0,'1','0',1,'value[8]'],[0,'1','0',1,'value[9]']
+,[0,'1','0',1,'value[10]'],[0,'1','0',1,'value[11]'],[0,'1','0',1,'value[12]'],[0,'1','0',1,'value[13]'],[0,'1','0',1,'value[14]'],[0,'1','0',1,'value[15]']],[]],
+c147:[4,'penable',[],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[0,'1','1000',,'en[0]'],[0,'1','0',1,'en[1]']],[]],
+c148:[5,'#cross__0#',['pwrite','paddr'],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[4,'1','1000',,'read','valid']],[[],[4,'1','0',1,'write','valid'],[4,'1','0',1,'read','invalid'],[4,'1','0',1,'write','invalid']]],
+c149:[5,'#cross__1#',['pwrite','pwdata'],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[4,'1','1000',,'read','data']],[[],[4,'1','0',1,'write','data']]],
+c150:[5,'#cross__2#',['paddr','pstrb'],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[4,'1','1000',,'valid','value[0]']],[[],[4,'1','0',1,'invalid','value[0]'],[4,'1','0',1,'valid','value[1]'],[4,'1','0',1,'invalid','value[1]'],[4,'1','0',1,'valid','value[2]'],[4,'1','0',1,'invalid','value[2]'],[4,'1','0',1,'valid','value[3]'],[4,'1','0',1,'invalid','value[3]'],[4,'1','0',1,'valid','value[4]'],[4,'1','0',1,'invalid','value[4]']
+,[4,'1','0',1,'valid','value[5]'],[4,'1','0',1,'invalid','value[5]'],[4,'1','0',1,'valid','value[6]'],[4,'1','0',1,'invalid','value[6]'],[4,'1','0',1,'valid','value[7]'],[4,'1','0',1,'invalid','value[7]'],[4,'1','0',1,'valid','value[8]'],[4,'1','0',1,'invalid','value[8]'],[4,'1','0',1,'valid','value[9]'],[4,'1','0',1,'invalid','value[9]']
+,[4,'1','0',1,'valid','value[10]'],[4,'1','0',1,'invalid','value[10]'],[4,'1','0',1,'valid','value[11]'],[4,'1','0',1,'invalid','value[11]'],[4,'1','0',1,'valid','value[12]'],[4,'1','0',1,'invalid','value[12]'],[4,'1','0',1,'valid','value[13]'],[4,'1','0',1,'invalid','value[13]'],[4,'1','0',1,'valid','value[14]'],[4,'1','0',1,'invalid','value[14]']
+,[4,'1','0',1,'valid','value[15]'],[4,'1','0',1,'invalid','value[15]']]],
+c151:[5,'#cross__3#',['psel','penable'],,'141',1,1,'drv_cg','140','/apb_pkg/apb_driver',[[],[4,'1','1000',,'sel[0]','en[0]'],[3,'--','0',,'rest']],[[],[4,'1','0',1,'sel[1]','en[0]'],[4,'1','0',1,'sel[1]','en[1]']]],
+c154:[4,'prdata',[],,'153',1,1,'mon_cg','152','/apb_pkg/apb_monitor',[[],[0,'1','1000',,'data']],[]],
+c155:[4,'pslverr',[],,'153',1,1,'mon_cg','152','/apb_pkg/apb_monitor',[[],[0,'1','0',1,'err'],[0,'1','1000',,'no_err']],[]],
+c156:[4,'pready',[],,'153',1,1,'mon_cg','152','/apb_pkg/apb_monitor',[[],[3,'--','0',,'not_ready'],[0,'1','1000',,'ready']],[]],
+dummyEnd:0
+};
+processCovergroupsData(g_data);

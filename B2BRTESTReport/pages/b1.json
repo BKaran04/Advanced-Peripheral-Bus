@@ -1,0 +1,48 @@
+var g_data = {
+b6:[{dummy:0},
+{anchor:'cvg10',items:[{z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'68',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'68',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',f:'apb_slave.sv',l:'74',h:'1003',c:'g'}
+]},
+{anchor:'cvg11',items:[{z:'            if (write_enable && addr_valid) begin',f:'apb_slave.sv',l:'75',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'            if (write_enable && addr_valid) begin',f:'apb_slave.sv',l:'75',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'            if (write_enable && addr_valid) begin',f:'apb_slave.sv',l:'75',h:'1003',c:'g'}
+]},
+{anchor:'cvg12',items:[{z:'                    if (PSTRB[i]) begin',f:'apb_slave.sv',l:'78',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                    if (PSTRB[i]) begin',f:'apb_slave.sv',l:'78',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                    if (PSTRB[i]) begin',f:'apb_slave.sv',l:'78',h:'0',c:'r'}
+]},
+{anchor:'cvg13',items:[{z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'90',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'90',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',f:'apb_slave.sv',l:'93',h:'1386',c:'g'}
+]},
+{anchor:'cvg14',items:[{z:'            if (read_enable && addr_valid) begin',f:'apb_slave.sv',l:'94',c:'Y',p:'66.66'}
+,{cr:'c',t:'I',z:'            if (read_enable && addr_valid) begin',f:'apb_slave.sv',l:'94',h:'384',c:'g'}
+,{cr:'m',t:'T',z:'            else if (read_enable && ~addr_valid) begin',f:'apb_slave.sv',l:'97',h:'0',c:'r'}
+,{cr:'c',t:'E',z:'            else begin',f:'apb_slave.sv',l:'101',h:'1002',c:'g'}
+]}],
+b9:[{dummy:0},
+{anchor:'cvg10',items:[{z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'68',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'68',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',f:'apb_slave.sv',l:'74',h:'1003',c:'g'}
+]},
+{anchor:'cvg11',items:[{z:'            if (write_enable && addr_valid) begin',f:'apb_slave.sv',l:'75',c:'Y',p:'50.00'}
+,{cr:'m',t:'I',z:'            if (write_enable && addr_valid) begin',f:'apb_slave.sv',l:'75',h:'0',c:'r'}
+,{cr:'c',t:'A',z:'            if (write_enable && addr_valid) begin',f:'apb_slave.sv',l:'75',h:'1003',c:'g'}
+]},
+{anchor:'cvg12',items:[{z:'                    if (PSTRB[i]) begin',f:'apb_slave.sv',l:'78',c:'R',p:'0.00'}
+,{cr:'m',t:'I',z:'                    if (PSTRB[i]) begin',f:'apb_slave.sv',l:'78',h:'0',c:'r'}
+,{cr:'m',t:'A',z:'                    if (PSTRB[i]) begin',f:'apb_slave.sv',l:'78',h:'0',c:'r'}
+]},
+{anchor:'cvg13',items:[{z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'90',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'        if (!PRESETn) begin',f:'apb_slave.sv',l:'90',h:'2',c:'g'}
+,{cr:'c',t:'E',z:'        else begin',f:'apb_slave.sv',l:'93',h:'1386',c:'g'}
+]},
+{anchor:'cvg14',items:[{z:'            if (read_enable && addr_valid) begin',f:'apb_slave.sv',l:'94',c:'Y',p:'66.66'}
+,{cr:'c',t:'I',z:'            if (read_enable && addr_valid) begin',f:'apb_slave.sv',l:'94',h:'384',c:'g'}
+,{cr:'m',t:'T',z:'            else if (read_enable && ~addr_valid) begin',f:'apb_slave.sv',l:'97',h:'0',c:'r'}
+,{cr:'c',t:'E',z:'            else begin',f:'apb_slave.sv',l:'101',h:'1002',c:'g'}
+]}],
+dummyEnd:0
+};
+processBranchesData(g_data);
